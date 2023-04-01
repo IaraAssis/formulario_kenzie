@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <fieldset>
+            <legend> Cadastro </legend>
+        <form>
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite o seu nome aqui..." name="nome">
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Digite o seu e-mail aqui..." name="email">
+            </div>
+            <div>
+                <label for="descricao">O que te motivou a participar do evento?</label>
+                <textarea placeholder="Descreva aqui..." id="descricao" cols="30" rows="10" name="descricao"> </textarea>
+            </div>
+            <div>
+                <label for="modulo">Selecione seu modulo</label>
+            </div>
+            <div>
+                <select id="modulo" name="modulo" required="true">
+                <option value="t16">Escolher módulo </option>
+                <option value=" m1">M1</option>
+                <option value=" m2">M2</option>
+                <option value=" m3">M3</option>
+                <option value=" m4">M4</option>
+                <option value=" m5">M5</option>
+                <option value=" m6">M6</option>
+                </select>
+            </div>
+            <div>
+                <label for="password">Cadastre uma senha</label>
+                <input type="password" id="password" placeholder="Digite sua senha aqui..." name="password">
+            </div>
+            <div>
+                <label for="password">Confirme a senha</label>
+                <input type="password" id="password" placeholder="Confirme sua senha aqui..." name="password">
+            </div>
+            <div>
+                <p> Deseja receber novidades em seu e-mail?</p>
+                <label for="sim">Sim</label>
+                <input type="radio" name="input">
+                <label for="nao">Não</label>
+                <input type="radio" name="input">
+            </div>
+            <div>
+                <button type="submit">Cadastrar</button>
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
